@@ -1,0 +1,40 @@
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    
+    /* padding-top:10px;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-bottom: 10px; */
+    
+    /* padding: 10px 10px 10px 10px; */
+
+    padding:10px;
+
+    /* border-width:10px;
+    border-color: darkslategrey;
+    border-style: solid; */
+   
+    border:10px solid rgb(33, 44, 44);
+    
+    /* outline:5px;
+    outline-style: dashed;
+    outline-color: rgb(70, 51, 28); */
+ 
+    /* margin-top:10px ;
+    margin-right:10px;
+    margin-bottom:10px ;
+    margin-left:10px ; */
+
+    margin:20px auto 20px auto;
+
+}
+a{
+    border-width:3px;
+    border-style: solid;
+    border-color:red;
+    text-decoration: none;
+   
+    /* padding:10px; */
+}

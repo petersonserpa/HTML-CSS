@@ -1,0 +1,32 @@
+body, ul, a, p, li{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.header {
+   /* padding:10px;  */
+   display: flex;
+    background-color: black;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+.header a{
+    margin: 10px;
+    padding:10px;
+    display: flex;
+    /* background-color: aquamarine; */
+    color: white;
+    align-items: center
+}
+.menu{
+    margin:;
+    display: flex;    
+}

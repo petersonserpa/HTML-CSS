@@ -1,0 +1,9 @@
+@font-face {
+    font-family:'bebas';
+    src: url('BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{ 
+    font-family: 'bebas';
+}

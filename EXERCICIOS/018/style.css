@@ -1,0 +1,6 @@
+body, p, a, ul, li{
+    background-color: rgb(4, 25, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}

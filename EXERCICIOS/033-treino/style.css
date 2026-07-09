@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px; 
+        }
+        ul{
+            list-style: none;
+        }
+        body{
+            /* background-color: black; */
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+            background-color:rgb(127, 118, 118) ;
+            border-bottom: 1px solid #EEEFF0;
+            align-items: center;
+            padding: 3.0rem;
+            
+            
+            
+        }
+        .nav-list ul{
+            display: flex;
+            list-style: none;
+            /* margin-left: 2.5rem; */
+        }
+        .nav-list a{
+            text-decoration: none;
+            padding:0.5rem;
+            color: black;
+            
+        }
+        .logo a{
+            color:#3643BA;
+            /* margin: rem; */
+            text-decoration: none;
+            font-family: "Bebas Neue", sans-serif;
+            font-size:2rem ;
+            margin-left: 2.5rem;
+        }
+        .nav-list a:hover{
+            text-decoration:underline;
+            padding:0.5rem;
+            color: black;
+
+        }
+        .nav2{
+            display: flex;
+            margin-left: 6rem;
+            margin-right: 4rem;
+
+        }
+        .nav2 ul a{
+           text-decoration: none;
+        }
+        .nav2 ul{
+            
+        }
+        .nav2-list ul{
+            display: flex;
+        }
+        nav2-list2 ul{
+
+        }

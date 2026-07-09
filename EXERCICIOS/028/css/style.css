@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+background-color: #24252a;
+    font-family:"Google Sans Flex", sans-serif ;
+ box-shadow: 0px 3px 10px #24252a;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #EFFFFA;
+    padding: 0.6rem;
+    text-decoration: none;
+    align-items: center;
+    font-family:"Bebas Neue" ;
+    font-size:2rem;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:1.0rem 1rem;
+}
+
+.nav-list{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+   
+}
+.nav-list ul{
+    display: flex;
+    padding: 0.5rem;
+     list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+    /* background-color: tomato; */
+}
+
+.nav-link{
+text-decoration: none;
+color:#fff;
+
+}
+.pesquisar{
+    display: flex;
+    align-items: center;
+}
+.pesquisar input{
+
+    padding: 9px;
+    display: flex;
+    width:25rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+ .mobile-menu-icon{
+    display: none;
+ }
+.mobile-menu{
+    display: none;
+}
+ 
+@media screen and (max-width:797px) {
+    .nav-bar{
+        padding: 1.5rem 4rem;
+        flex-wrap: wrap;
+    }
+    .nav-list {
+        display: none;
+    }
+    .pesquisar{
+        display:block;
+        width: 100%;
+        margin-top:0.9rem ;
+        order: 3;
+    }
+        .pesquisar input{
+            width:100%
+        }
+    .mobile-menu-icon{
+        display: block;
+        /* margin-top:rem ; */
+        padding:0.6rem;
+    }
+.mobile-menu-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:1rem ;
+}
+.mobile-menu .nav-item{
+    display: block;
+    padding-top:1.2rem;
+}
+.mobile-menu .pesquisar{
+    display: block;
+    padding: 1rem 2rem;
+}
+.pesquisar{
+    display:none ;
+}
+.open{
+    display: block;
+}
+}

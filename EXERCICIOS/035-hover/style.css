@@ -1,0 +1,33 @@
+.surpresa{
+    display:none;
+    background-color: yellow;
+    padding: 1rem;
+    width: 7rem;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div:hover>.surpresa{
+    display: block;
+}
+.action:hover{
+    text-decoration: underline;
+}
+.destaque{
+    font-family: sans-serif;
+    font-size:x-small;
+}
+#surpresa2{
+    background-color: yellow;
+    display: none;
+    padding: 1rem;
+    width: 7rem;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.destaque:hover{
+    text-decoration: underline;
+}
+div:has(.destaque:hover) #surpresa2{
+    display: block;
+}
+

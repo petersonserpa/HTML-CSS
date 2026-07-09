@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Inter", sans-serif;
+    font-size:21px;
+    background-color: aqua;
+}
+.mobile-menu , .mobile-logo{
+    display:none;
+}
+
+header{
+    background-color: #2B3133;
+    display: flex;
+    justify-content: space-between;
+    padding:2.875rem;
+    
+.direita a{
+    font-size:13px;
+    font-weight:100;
+    
+}
+
+    a{
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right:20px;
+    }
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:884px){
+.header{
+        .meio{ 
+            display: none;
+        }
+        .logo{
+            display: none;
+        }
+        .direita{
+            display: none;
+        }
+    }
+    .mobile-menu , .mobile-logo{
+    display:flex;
+}
+   
+}
+
+}
+
+
