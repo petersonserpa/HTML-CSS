@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+}
+:root{
+             /* cores principais */
+
+--cor1:#F8F4EC;
+--cor2: #E8D8C3;
+--cor3:#C8A27A;
+--cor4:#8B5E3C;
+--cor5: #5C3A21;
+--cor6: #2D1B12;
+
+             /* Cores de apoio */
+
+--cor-destaque:#C68642;
+--cor-hover: #A66A3F;
+--cor-texto:#2B2B2B;
+--cor-branco: #FFFFFF;
+            
+            /* Fontes */
+--fonte-padrao: "Lato", sans-serif;
+
 }
