@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family:"lacoffe";
+    src: url(/fontes/LaCoffee-Demo.ttf) format(truetype);
+    font-weight: normal;
+    
+}
 
 *{
     margin: 0px;
@@ -23,5 +29,11 @@
             
             /* Fontes */
 --fonte-padrao: "Lato", sans-serif;
+--fonte-titulo: "lacoffe", sans-serif;
+}
+/* header{
 
 }
+header h1{
+    font-family:var(--fonte-titulo)
+} */
