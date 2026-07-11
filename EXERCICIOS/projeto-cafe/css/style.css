@@ -39,21 +39,26 @@ body{
     /* background-color: #F8F4EC; */
 }
 header{
-    /* background-image: linear-gradient(to bottom, var(--cor4), var(--cor5)); */
+    display: flex;
+    /* justify-content: space-between; */
     background-color: var(--cor7);
     min-height: 100px;
     text-align:start;
     padding-top: 40px;
     padding-left: 10px;
-    box-shadow: 0px 0px 14px 1px #000000ad;
+    box-shadow: 0px 0px 14px 1px #000000ad;}
 
-    a{
+     header > a{
         display: block;
         text-decoration: none;
         color:var(--cor-branco);
         font-family:var(--fonte-titulo);
         font-size: 2.4em;
         padding: 10px 10px 10px 10px;
+ }
 
-    }
+.nav-list{
+padding: 10px 10px 10px 10px;
+justify-content: flex-end;
+    background-color: #17183B;
 }
