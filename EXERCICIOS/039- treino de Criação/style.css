@@ -8,14 +8,13 @@
 body{
     font-family:"Inter", sans-serif;
     font-size:21px;
-    background-color: aqua;
 }
 .mobile-menu , .mobile-logo{
     display:none;
 }
 
 header{
-    background-color: #2B3133;
+    background-color: #2b313300;
     display: flex;
     justify-content: space-between;
     padding:2.875rem;
@@ -32,6 +31,13 @@ header{
     justify-content: space-between;
     margin-right:20px;
     }
+}
+main{
+    background-color: #2B3133;
+    margin: auto;
+}
+main img{
+    width: 100%;
 }
 a:hover{
     text-decoration: underline;
@@ -53,8 +59,12 @@ a:hover{
     display:flex;
 }
    
+img .hero{
+    display: block;
+    margin: auto;
+    width: 100px;
 }
 
-}
+
 
 
