@@ -37,7 +37,6 @@
 }
 body{
     font-family: var(--fonte-padrao);
-    /* background-color: #F8F4EC; */
 }
 header{
     display: flex;
@@ -72,4 +71,13 @@ justify-content: flex-end;
 font-size: 1.4em;
  margin: 10px 10px 10px 10px;
 
+}
+.nav-meio>a:hover{
+    text-decoration: underline;
+}
+.direita:hover{
+    text-decoration: underline;
+}
+@media screen  {
+    
 }
