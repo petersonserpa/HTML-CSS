@@ -9,6 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 :root{
              /* cores principais */
@@ -40,12 +41,10 @@ body{
 }
 header{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-around;
     background-color: var(--cor7);
-    min-height: 100px;
-    text-align:start;
-    padding-top: 40px;
-    padding-left: 10px;
+    min-height: 100px;  
+    padding: 25px;
     box-shadow: 0px 0px 14px 1px #000000ad;}
 
      header > a{
@@ -57,8 +56,20 @@ header{
         padding: 10px 10px 10px 10px;
  }
 
-.nav-list{
+.nav-meio{
 padding: 10px 10px 10px 10px;
 justify-content: flex-end;
-    background-color: #17183B;
+    /* background-color: #17183B; */
+}
+
+.nav-meio >a{
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 1.4em;
+}
+.direita{
+font-size: 1.4em;
+ margin: 10px 10px 10px 10px;
+
 }
